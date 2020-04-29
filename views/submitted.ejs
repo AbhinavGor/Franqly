@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franqly - Submitted</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+        body{
+            background-color: #8BA5A5;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .success{
+            display: block;
+            color: #e9C363;
+            font-size: 2em;
+            text-align: center;
+            padding: 80px;
+        }
+
+        .form-container{
+            
+            text-align: center;
+        }
+        .form-container input[type='submit']{
+            font-family: 'Josefin Sans', sans-serif;
+            background-color: #9ECAF4;
+            color: #F1EFEC;
+            border: none;
+            padding: 10px 20px;
+            margin: 16px;
+            border-radius: 20px;
+        }
+        .form-container input[type='submit']:hover{
+            background-color: inherit;
+            color: #9ECAF4;
+            border:2px solid #F1EFEC;   
+        }
+        .footer {
+            display: block;
+            padding: 10px;
+            bottom: 0px;
+            width: 100%;
+            position: fixed;
+            font-size: 10px !important;
+            height: auto;
+            color: aliceblue;
+            text-align: center;
+        }
+        .footer a{
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h2 class = 'success'>Your message has been successfully sent.</h2>
+    <form action="/" method='GET' class="form-container">
+        <input type='submit' value='Submit another message.'/>
+    </form>
+</body>
+</html>

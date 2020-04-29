@@ -7,7 +7,7 @@ const ejs = require('ejs');
 connectDB();
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set('views', __dirname + '\\views');
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
